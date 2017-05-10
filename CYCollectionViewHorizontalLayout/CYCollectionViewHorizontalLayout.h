@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ Only Support 1 Section for now
+ */
 @interface CYCollectionViewHorizontalLayout : UICollectionViewLayout
 
 @property (nonatomic ,assign) CGSize itemSize;

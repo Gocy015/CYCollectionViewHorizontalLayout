@@ -14,6 +14,9 @@
 		C37459411EC06DD900E8707F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37459401EC06DD900E8707F /* Assets.xcassets */; };
 		C37459441EC06DD900E8707F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37459421EC06DD900E8707F /* LaunchScreen.storyboard */; };
 		C374594F1EC06E6B00E8707F /* CYCollectionViewHorizontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C374594E1EC06E6B00E8707F /* CYCollectionViewHorizontalLayout.m */; };
+		C3DC00DC1EC3101300ACA8AF /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC00DA1EC3101300ACA8AF /* CollectionViewCell.m */; };
+		C3DC00DD1EC3101300ACA8AF /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DC00DB1EC3101300ACA8AF /* CollectionViewCell.xib */; };
+		C3DC00E41EC311A800ACA8AF /* NSArray+HigherOrderFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DC00E31EC311A800ACA8AF /* NSArray+HigherOrderFunction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,11 @@
 		C37459451EC06DD900E8707F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C374594D1EC06E6B00E8707F /* CYCollectionViewHorizontalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCollectionViewHorizontalLayout.h; sourceTree = "<group>"; };
 		C374594E1EC06E6B00E8707F /* CYCollectionViewHorizontalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCollectionViewHorizontalLayout.m; sourceTree = "<group>"; };
+		C3DC00D91EC3101300ACA8AF /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		C3DC00DA1EC3101300ACA8AF /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		C3DC00DB1EC3101300ACA8AF /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		C3DC00E21EC311A800ACA8AF /* NSArray+HigherOrderFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HigherOrderFunction.h"; sourceTree = "<group>"; };
+		C3DC00E31EC311A800ACA8AF /* NSArray+HigherOrderFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HigherOrderFunction.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +70,14 @@
 		C37459331EC06DD900E8707F /* CYCollectionViewHorizontalLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C3DC00E11EC311A800ACA8AF /* Utils */,
 				C37459371EC06DD900E8707F /* AppDelegate.h */,
 				C37459381EC06DD900E8707F /* AppDelegate.m */,
 				C374593A1EC06DD900E8707F /* ViewController.h */,
 				C374593B1EC06DD900E8707F /* ViewController.m */,
+				C3DC00D91EC3101300ACA8AF /* CollectionViewCell.h */,
+				C3DC00DA1EC3101300ACA8AF /* CollectionViewCell.m */,
+				C3DC00DB1EC3101300ACA8AF /* CollectionViewCell.xib */,
 				C374593D1EC06DD900E8707F /* Main.storyboard */,
 				C37459401EC06DD900E8707F /* Assets.xcassets */,
 				C37459421EC06DD900E8707F /* LaunchScreen.storyboard */,
@@ -90,6 +102,15 @@
 				C374594E1EC06E6B00E8707F /* CYCollectionViewHorizontalLayout.m */,
 			);
 			path = CYCollectionViewHorizontalLayout;
+			sourceTree = "<group>";
+		};
+		C3DC00E11EC311A800ACA8AF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C3DC00E21EC311A800ACA8AF /* NSArray+HigherOrderFunction.h */,
+				C3DC00E31EC311A800ACA8AF /* NSArray+HigherOrderFunction.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +174,7 @@
 			files = (
 				C37459441EC06DD900E8707F /* LaunchScreen.storyboard in Resources */,
 				C37459411EC06DD900E8707F /* Assets.xcassets in Resources */,
+				C3DC00DD1EC3101300ACA8AF /* CollectionViewCell.xib in Resources */,
 				C374593F1EC06DD900E8707F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +187,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C374594F1EC06E6B00E8707F /* CYCollectionViewHorizontalLayout.m in Sources */,
+				C3DC00DC1EC3101300ACA8AF /* CollectionViewCell.m in Sources */,
+				C3DC00E41EC311A800ACA8AF /* NSArray+HigherOrderFunction.m in Sources */,
 				C374593C1EC06DD900E8707F /* ViewController.m in Sources */,
 				C37459391EC06DD900E8707F /* AppDelegate.m in Sources */,
 				C37459361EC06DD900E8707F /* main.m in Sources */,
